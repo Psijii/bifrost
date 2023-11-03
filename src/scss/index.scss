@@ -11,10 +11,18 @@
           color: $light;
       }
   }
-  .dropdown {
+  .dropdown-menu {
     background-color: $dark;
+    a {
+        color: $light;
+        &:hover {
+            color: $light;
+            background-color: transparent;
+        }
+      }
+    }
   }
-}
+
 
 /* Hero image styles */
 .hero-image {

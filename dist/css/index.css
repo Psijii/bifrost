@@ -11866,8 +11866,18 @@ textarea.form-control-lg {
 .navbar a:hover {
   color: #F2F2F2;
 }
-.navbar .dropdown {
+.navbar .dropdown-menu {
   background-color: #101C06;
+}
+.navbar .dropdown-menu a {
+  color: #F2F2F2;
+}
+.navbar .dropdown-menu a:hover {
+  color: #F2F2F2;
+  background-color: transparent;
+}
+.navbar .dropdown-menu .nav-item:active {
+  color: #F2F2F2;
 }
 
 /* Hero image styles */
