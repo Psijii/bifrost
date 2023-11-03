@@ -2,14 +2,34 @@
 @import "variables";
 @import "nav";
 
+body {
+  background-color: $dark;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+  color: $light;
+}
+
+p {
+  color: $light;
+}
+
+/* Hero image styles */
 /* Hero image styles */
 .hero-image {
   background-image: url('/src/img/hero_image.jpg');
   background-size: cover;
   height: 600px;
   width: 100vw;
+
+  @media (max-width: 768px) {
+    background-size: cover; 
+    height: 300px;
+  }
 }
+
+
 
 /* Header styles */
 .header {

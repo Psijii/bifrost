@@ -23738,12 +23738,32 @@ textarea.form-control-lg {
   padding-right: 30px;
 }
 
+body {
+  background-color: #101C06;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 200;
+  color: #F2F2F2;
+}
+
+p {
+  color: #F2F2F2;
+}
+
+/* Hero image styles */
 /* Hero image styles */
 .hero-image {
   background-image: url("/src/img/hero_image.jpg");
   background-size: cover;
   height: 600px;
   width: 100vw;
+}
+@media (max-width: 768px) {
+  .hero-image {
+    background-size: cover;
+    height: 300px;
+  }
 }
 
 /* Header styles */
