@@ -23742,6 +23742,15 @@ body {
   background-color: #101C06;
 }
 
+i {
+  color: #879177;
+}
+
+.smoltext {
+  font-size: xx-small;
+  font-weight: 100;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 200;
   color: #F2F2F2;
@@ -23767,11 +23776,12 @@ p {
 }
 
 /* Header styles */
-.header {
+.header-index {
   background-color: #101C06;
-  color: #fff;
+  color: #F4EAE2;
   text-align: center;
   padding: 20px;
+  font-size: xx-large;
 }
 
 /* News section styles */
