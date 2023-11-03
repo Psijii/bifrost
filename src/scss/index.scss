@@ -1,37 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
-
-/* Navbar styles */
-.navbar {
-  background-color: $dark;
-  color: $light;
-  a {
-      color: $light;
-      &:hover {
-          color: $secondary;
-      }
-      &:after {
-        color: $tertiary;
-      }
-  }
-  .dropdown-menu {
-    background-color: $dark;
-    a {
-        color: $light;
-        &:hover {
-            color: $light;
-            background-color: transparent;
-        }
-      }
-      .nav-link {
-          color: $light;
-          &:hover {
-              color: $light;
-              background-color: transparent;
-          }
-      }
-    }
-  }
+@import "nav";
 
 
 /* Hero image styles */

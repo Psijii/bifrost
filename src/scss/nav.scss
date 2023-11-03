@@ -1,0 +1,30 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  background-color: $dark;
+  color: $light;
+
+  .dropdown-menu {
+    background-color: $dark;
+    a {
+        color: $light;
+        &:hover {
+            color: $tertiary;
+            background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    color: $light;
+    &:hover {
+        color: $tertiary;
+    }
+  }
+
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
