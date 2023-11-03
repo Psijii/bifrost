@@ -1,6 +1,6 @@
 {
   "name": "bifrost",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Prototype for Åsatrufellesskapet Bifrost",
   "main": "index.html",
   "scripts": {
