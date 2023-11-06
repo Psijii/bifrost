@@ -23740,6 +23740,7 @@ textarea.form-control-lg {
 
 body {
   background-color: #101C06;
+  overflow-x: none;
 }
 
 i {
