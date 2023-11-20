@@ -4,6 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "https://fonts.googleapis.com/css?family=Lato";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -23755,10 +23756,13 @@ i {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 200;
   color: #F2F2F2;
+  text-transform: uppercase;
+  font-family: "Lato";
 }
 
 p {
   color: #F2F2F2;
+  font-family: "Lato";
 }
 
 /* Hero image styles */

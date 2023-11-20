@@ -2,6 +2,9 @@
 @import "variables";
 @import "nav";
 
+@import "https://fonts.googleapis.com/css?family=Lato"; // Google font
+
+
 body {
   background-color: $dark;
   overflow-x: hidden;
@@ -19,10 +22,14 @@ i {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   color: $light;
+  text-transform: uppercase;
+  font-family: "Lato";
+ 
 }
 
 p {
   color: $light;
+  font-family: "Lato";
 }
 
 /* Hero image styles */
