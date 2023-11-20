@@ -23762,7 +23762,6 @@ p {
 }
 
 /* Hero image styles */
-/* Hero image styles */
 .hero-image {
   background-image: url("/src/img/hero_image.jpg");
   background-size: cover;
@@ -23805,6 +23804,17 @@ p {
 .container .col-md-4 img {
   max-width: 100%;
   height: auto;
+}
+
+.blotslag {
+  width: 700px;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .blotslag {
+    width: 100%;
+    padding: 5px;
+  }
 }
 
 /* Footer styles */

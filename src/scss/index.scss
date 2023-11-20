@@ -69,6 +69,19 @@ p {
   }
 }
 
+$container-width: 700px;
+
+.blotslag {
+  width: $container-width;
+  margin: auto;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+
 /* Footer styles */
 footer {
   background-color: $dark;
