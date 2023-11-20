@@ -23806,6 +23806,20 @@ p {
   height: auto;
 }
 
+a {
+  color: #879177;
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:hover {
+  color: #F2F2F2;
+}
+
+.medlemsliste {
+  color: #F2F2F2;
+  list-style-type: decimal;
+}
+
 .blotslag {
   width: 700px;
   margin: auto;

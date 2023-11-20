@@ -69,6 +69,20 @@ p {
   }
 }
 
+a {
+  color: $tertiary;
+  font-weight: bolder;
+  text-decoration: none;
+  &:hover {
+      color: $light;
+  }
+}
+
+.medlemsliste {
+  color: $light;
+  list-style-type: decimal;
+}
+
 $container-width: 700px;
 
 .blotslag {
